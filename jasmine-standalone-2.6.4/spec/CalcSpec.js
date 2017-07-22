@@ -16,4 +16,8 @@ describe('Calc', function () {
             expect(calculator.subtractNumbers(numberOne, numberTwo)).toBe(numberOne - numberTwo)
         })
 
+        it('divides two numbers', function(){
+            expect(calculator.divideNumbers(numberOne, numberTwo)).toBe(numberOne / numberTwo)
+        })
+
 })

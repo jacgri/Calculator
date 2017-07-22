@@ -11,5 +11,9 @@ Calculator.prototype = {
 
     subtractNumbers: function(numberOne, numberTwo){
         return(Number(numberOne) - Number(numberTwo))
+    },
+
+    divideNumbers: function(numberOne, numberTwo){
+        return(Number(numberOne)/Number(numberTwo))
     }
 }
