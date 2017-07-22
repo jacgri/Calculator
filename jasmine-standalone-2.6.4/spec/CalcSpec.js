@@ -23,5 +23,8 @@ describe('Calc', function () {
         it('multiplies two numbers', function(){
             expect(calculator.multiplyNumbers(numberOne, numberTwo)).toBe(numberOne * numberTwo)
         })
+        it('work out the value of a number to the power of another number',function(){
+            expect(calculator.squarerootNumbers(numberOne, numberTwo)).toBe(Math.pow(numberOne,numberTwo))
+        })
 
 })

@@ -18,6 +18,9 @@ Calculator.prototype = {
     },
     multiplyNumbers: function(numberOne, numberTwo){
         return(Number(numberOne)*Number(numberTwo))
+    },
+    squarerootNumbers: function(numberOne,numberTwo){
+        return(Math.pow(numberOne,numberTwo))
     }
 
 }
