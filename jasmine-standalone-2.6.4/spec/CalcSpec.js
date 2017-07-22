@@ -20,4 +20,8 @@ describe('Calc', function () {
             expect(calculator.divideNumbers(numberOne, numberTwo)).toBe(numberOne / numberTwo)
         })
 
+        it('multiplies two numbers', function(){
+            expect(calculator.multiplyNumbers(numberOne, numberTwo)).toBe(numberOne * numberTwo)
+        })
+
 })
